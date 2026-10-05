@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rivail — Política de Privacidade</title>
+<!--
+  VERSÃO PÚBLICA de `loja/POLITICA-DE-PRIVACIDADE.md`, no repositório privado do
+  aplicativo Rivail. As duas têm de dizer a mesma coisa: quem mexer aqui mexe lá.
+-->
+<style>
+  :root{
+    --fundo:#100f0d; --papel:#171613; --casca:#e4ddcf; --fraco:#9b9488;
+    --ouro:#b08d4f; --fio:rgba(176,141,79,.28);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--fundo); color:var(--casca);
+    font:400 17px/1.75 Georgia,"Times New Roman",serif;
+    padding:0 20px 80px;
+  }
+  main{max-width:660px; margin:0 auto}
+  header{padding:64px 0 34px; border-bottom:1px solid var(--fio); margin-bottom:38px}
+  h1{font-size:2rem; letter-spacing:.02em; margin:0 0 8px; font-weight:600}
+  .sub{color:var(--fraco); font-size:.95rem; margin:0}
+  h2{
+    font-size:.74rem; letter-spacing:.16em; text-transform:uppercase;
+    color:var(--ouro); font-family:ui-monospace,"SFMono-Regular",Consolas,monospace;
+    font-weight:500; margin:44px 0 12px;
+  }
+  p{margin:0 0 16px}
+  ul,ol{margin:0 0 16px; padding-left:22px}
+  li{margin:0 0 8px}
+  strong{color:#f0e9db; font-weight:600}
+  code{
+    font-family:ui-monospace,"SFMono-Regular",Consolas,monospace;
+    font-size:.86em; color:#d6ba85; background:rgba(176,141,79,.1);
+    padding:1px 5px; border-radius:4px;
+  }
+  .caixa{
+    border:1px solid var(--fio); border-radius:10px; padding:18px 22px;
+    background:var(--papel); margin:0 0 22px;
+  }
+  .caixa p:last-child{margin-bottom:0}
+  hr{border:0; border-top:1px solid var(--fio); margin:56px 0 38px}
+  a{color:var(--ouro)}
+  footer{color:var(--fraco); font-size:.86rem; margin-top:48px}
+  [lang="en"] h1{font-size:1.7rem}
+  table{width:100%;border-collapse:collapse;margin:0 0 18px;font-size:.92rem}
+  th,td{border-bottom:1px solid var(--fio);padding:9px 8px;text-align:left;vertical-align:top}
+  th{color:var(--ouro);font-weight:500}
+  @media (max-width:560px){table,thead,tbody,tr,th,td{display:block}thead{display:none}td{border:0;padding:2px 0}tr{border-bottom:1px solid var(--fio);padding:10px 0}td:first-child{color:#f0e9db;font-weight:600}}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>Política de Privacidade</h1>
+  <p class="sub">Rivail — Biblioteca Espírita Ilustrada · Última atualização: 4 de outubro de 2026.</p>
+</header>
+<h2>O resumo, em três linhas</h2>
+<p>O Rivail não coleta nada. Não há conta, não há cadastro, não há anúncio e não há medição de uso. Tudo o que você faz dentro do aplicativo — o que leu, o que marcou, o que anotou, o que escreveu no diário — fica gravado no seu próprio aparelho e não é enviado a lugar nenhum.</p>
+<h2>O que fica no aparelho</h2>
+<p>Estes dados são gravados no armazenamento interno do aplicativo, no seu telefone, e nunca saem dele:</p>
+<ul>
+  <li>as preferências de leitura (tema claro ou escuro, tamanho da letra, se o francês original está visível);</li>
+  <li>a última questão lida e o histórico dos capítulos que você abriu;</li>
+  <li>as questões que você marcou e as notas que escreveu em cada uma;</li>
+  <li>o diário «Meu caminho» e a sequência de dias;</li>
+  <li>o progresso da trilha e dos planos de leitura;</li>
+  <li>o horário do lembrete diário, se você o tiver ligado.</li>
+</ul>
+<p>Não há cópia na nuvem e não há sincronização entre aparelhos. <strong>Se o aplicativo for desinstalado, esses dados vão junto</strong> — e não temos como recuperá-los, porque nunca os tivemos.</p>
+<h2>As permissões que a loja mostra</h2>
+<p>A ficha do Google Play lista as permissões do aplicativo já <strong>montado</strong>, e ela não distingue as que declaramos das que vêm das bibliotecas usadas. Por isso explicamos cada uma:</p>
+<table>
+<thead><tr><th>Permissão</th><th>Por quê</th><th>Quem declara</th></tr></thead>
+<tbody>
+<tr><td>Notificações</td><td>O lembrete diário de leitura, que você liga se quiser. O aviso é gerado no próprio aparelho.</td><td>Nós</td></tr>
+<tr><td>Iniciar com o sistema</td><td>Para o lembrete sobreviver a um reinício do telefone. Nada mais é executado.</td><td>Nós</td></tr>
+<tr><td>Internet</td><td><strong>O aplicativo não faz requisição de rede.</strong> A permissão vem da biblioteca de compras do Google Play.</td><td>Biblioteca de compras</td></tr>
+<tr><td>Faturamento</td><td>As compras de valor único.</td><td>Biblioteca de compras</td></tr>
+<tr><td>Estado da conexão</td><td>A biblioteca de compras verifica se há rede antes de falar com a Play Store. Ela não lê endereço nem histórico: só se há conexão.</td><td>Biblioteca de compras</td></tr>
+<tr><td>Serviço em primeiro plano (transferência de dados)</td><td>Usada só durante o download das imagens da Ilustrada, para que a Play Store termine de entregá-las mesmo com o aplicativo fechado; aparece uma notificação enquanto baixa. Nenhum dado seu é enviado.</td><td>Biblioteca de entrega de recursos do Google Play</td></tr>
+<tr><td>Receptor interno</td><td>Uma permissão de nome longo, começada pelo nome do pacote, que a biblioteca de compras cria para falar consigo mesma dentro do aparelho. Não dá acesso a nada de fora.</td><td>Biblioteca de compras</td></tr>
+</tbody>
+</table>
+<p>Não há nenhuma outra: <strong>sem localização, sem contatos, sem câmera, sem microfone, sem identificador de publicidade</strong>.</p>
+<p>Todo o texto — as dez obras, o original francês, os temas e o material de estudo — está <strong>dentro do aplicativo</strong>, e é lido do próprio aparelho. As ilustrações da Ilustrada são a única coisa que chega depois: quem compra baixa um pacote de imagens <strong>pela Play Store</strong>, uma vez; o pedido sai da Play Store, não do Rivail, e depois do download elas também funcionam sem conexão. O Rivail funciona inteiro sem conexão.</p>
+<h2>Compras</h2>
+<p>São de valor único, sem assinatura e sem renovação. Quem processa o pagamento é o Google Play. Não vemos, não recebemos e não guardamos nenhum dado de pagamento — nem número de cartão, nem nome, nem e-mail.</p>
+<p><strong>Nenhuma compra desbloqueia texto.</strong> As obras são gratuitas por inteiro, sem cadastro e sem limite. As camadas pagas dão acesso ao aparato editorial e ao acabamento visual.</p>
+<h2>Crianças</h2>
+<p>O aplicativo não coleta dado de ninguém, de qualquer idade.</p>
+<h2>Contato</h2>
+<p><a href="mailto:heinz.suporte@gmail.com">heinz.suporte@gmail.com</a></p>
+<h2>Mudanças nesta política</h2>
+<p>Se esta política mudar, a data no alto muda com ela, e a versão nova chega junto com a atualização do aplicativo.</p>
+<footer>Rivail — Biblioteca Espírita Ilustrada · Última atualização: 4 de outubro de 2026.</footer>
+</main>
+</body>
+</html>
